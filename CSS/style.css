@@ -86,7 +86,7 @@ body html {
 
 .left__col__list img {
     width: 110%;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     z-index: 9;
 }
@@ -435,6 +435,7 @@ body html {
 .btn-primary {
     background-color: #B942BC;
     border-radius: 20px;
+    border: none;
 }
 
 .gap-2 :hover {
@@ -485,8 +486,42 @@ body html {
     }
 }
 
-ol, ul{
+ol, ul {
     padding-left: 0rem;
+}
+
+button a {
+    font-size: var(--para);
+    letter-spacing: 0.03em;
+    font-family: 'Ubuntu__regular';
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn-primary:focus {
+    box-shadow: none !important;
+}
+
+@media screen and (max-width:1080px) {
+    .input__text input {
+        font-size: var(--para-Ipad);
+        font-family: 'Ubuntu__regular';
+    }
+    .btn-primary a {
+        font-size: var(--para-Ipad);
+        font-family: 'Ubuntu__regular';
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .input__text input {
+        font-size: var(--para-mob);
+    }
+    .btn-primary a {
+        font-size: var(--para-mob);
+    }
 }
 
 /* ****************************************************** */
