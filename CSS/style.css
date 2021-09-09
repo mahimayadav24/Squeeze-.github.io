@@ -84,9 +84,11 @@ body html {
     flex: 1;
 }
 
-.left__col__list img {
-    width: 110%;
-    /* height: 100vh; */
+#Img__list {
+    background-image: url("../Assets/young-beautiful-woman-with-flowers-near-face\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
     z-index: 9;
 }
